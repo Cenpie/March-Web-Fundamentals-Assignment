@@ -1,0 +1,86 @@
+header {
+    margin-top: 10%;
+    text-align: center;
+    font-family: sans-serif;
+} 
+table {
+    width: max-content;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-left:28%;
+} 
+td {
+    text-align: center;
+    border: 1px solid black;
+} 
+#sub1 {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    height: 20px;
+    width: 80px;
+} 
+#sub2 {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    height: 20px;
+    width: 90px;
+}
+#sub3 {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    height: 20px;
+    width: 45px;
+} 
+#sub4 {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    height: 20px;
+    width: 80px;
+} 
+#sub5 {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    height: 70px;
+    width: 80px;
+} 
+#sub6 {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    height: 70px;
+    width: 90px;
+} 
+#sub7 {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    height: 40px;
+    width: 80px;
+} 
+#sub8 {
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+#sub0 {
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+#sub01 {
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+#sub02 {
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+ 
+#box1 {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    height: 70px;
+    width: 30px;
+} 
+#box2 {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    height: 70px;
+    width: 45px;
+}
