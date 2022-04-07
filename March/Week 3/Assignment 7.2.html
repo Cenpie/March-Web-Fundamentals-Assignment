@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Form</title>
+    <style>
+        body{
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzTtpkQGpO2dQFGej1fUt0DZ-dmPKGAv_Vzw&usqp=CAU");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .main{
+            padding: 2%;
+            margin: auto;
+            background-color: white;
+            height: 700px;
+            width: 300px;
+        }
+        .header{
+            text-align: center;
+        }
+        .form1{
+            text-align: center;
+        }
+        input[type="text"]::placeholder { 
+                text-align: center;
+            }
+            input[type="text"]{ 
+                text-align: center;
+            }
+        input[type="password"]::placeholder { 
+            text-align: center;
+            }
+            input[type="password"]{ 
+                text-align: center;
+            }
+        input[type="tel"]::placeholder { 
+            text-align: center;
+            }
+            input[type="tel"]{ 
+                text-align: center;
+            }
+    </style>
+</head>
+<body>
+<div class="main">
+<div class="header">
+    <h1><u>Detail Form</u></h1>  
+    </header>
+</div>
+<div class="form1">
+    <form>
+        <label for="Email" ><b>Email</b></label>
+        <br>
+        <br>
+        <input type="text" id="Email" name="Email" placeholder="Enter your email" required>
+        <br>
+        <br>
+        <label for="pass"><b>Password (8 characters minimum)</b></label>
+        <br>
+        <br>
+        <input type="password" id="pass" name="password" minlength="8" placeholder="Enter your password" required>
+        <br>
+        <br>
+        <p><b>Your Occupation</b></p>
+
+        <input type="checkbox" value="Teacher" id="T1" name="T1" checked>
+        <label for="T1">Teacher</label>
+        <br>
+
+        <input type="checkbox" value="Student" id="T2" name="T2">
+        <label for="T2">Student</label>
+        <br>
+
+        <input type="checkbox" value="Clerk" id="T3" name="T3" >
+        <label for="T3" style="margin-right: 4.5%;">Clerk</label>
+        <br>
+        <br>
+        <p><b>Your Age</b></p>
+
+        <input type="checkbox" value="18-25" id="Age1" name="Age1" checked>
+        <label for="Age1">18-25</label>
+        <br>
+
+        <input type="checkbox" value="26-35" id="Age2" name="Age2">
+        <label for="Age2">26-35</label>
+        <br>
+
+        <input type="checkbox" value="35-45" id="Age3" name="Age3">
+        <label for="Age3">26-35</label>
+        <br>
+
+        <input type="checkbox" value="45+" id="Age4" name="Age4" >
+        <label for="Age4" style="margin-right: 4%;">45+</label>
+        <br>
+        <br>
+        <p><b>Phone Number</b></p>
+        <input type="tel" name="phone_number" id="phone_number" pattern="[789][0-9]{9}" placeholder="Starting with 789 and 10 Digits long" size="30" required="required"/>       
+        <br>
+        <br>
+        <label for="name"><b>Name</b></label>
+        <br>
+        <br>
+        <input type="text" id="name" placeholder="Enter your name here" name="name" >
+        <br>
+        <br>
+        <input type="submit" />
+    </form>
+</div>
+</div>
+</body>
+</html>
