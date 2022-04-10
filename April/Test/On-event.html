@@ -1,0 +1,19 @@
+<html>
+<head>
+<script type="text/javascript">
+window.onload = function(){
+   document.getElementById('send').onclick = function(e){
+       alert(document.getElementById("name").value);
+       return false;
+   }
+}
+</script>
+</head>
+<body>
+<h1 id="sample">DOM on-event handler</h1>
+<form method="post">
+<input type="text" name="name" id="name" />
+<input type="submit" name="send" id="send" value="Submit" />
+</form>
+</body>
+</html>

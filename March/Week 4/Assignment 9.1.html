@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid W/ CSS</title>
+    <style>
+        .itemA { 
+            grid-area: A; 
+            
+        }
+        .itemB { 
+            grid-area: B; 
+            height: 46.5vh !important;
+            
+        }
+        .itemC { 
+            grid-area: C; 
+            
+        }
+        .itemD { 
+            grid-area: D; 
+            
+        }
+        
+        .grid-container {
+          grid-template-columns:200px 200px 200px 200px;
+          background-color: white;
+          display: grid;
+          grid-template-areas:
+            'A A B'
+            'C D B';
+          gap: 10px;
+          padding: 10px;
+        }
+        
+        .grid-container > div {
+          background-color: rgba(0, 0, 0, 0.8);
+          color:white;
+          padding: 20px 30px;
+          font-size: 30px;
+          border-radius: 5px;
+          height: 20vh;
+        }
+        </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="itemA">A</div>
+        <div class="itemB">B</div>
+        <div class="itemC">C</div>  
+        <div class="itemD">D</div>
+      </div>
+</body>
+</html>

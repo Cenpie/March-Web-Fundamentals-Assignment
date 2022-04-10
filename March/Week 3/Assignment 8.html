@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geekster</title>
+    <link href="Assignment 8.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="Title.JPG" class="title">
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+            <ul>
+                <li class="btn">Apply Now</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="form1">
+        <form>
+            <label for="Full name" ><b>Full name*</b></label>            
+            <input type="text" id="Full name" name="Full name" placeholder="Enter your Full name" required>
+
+            <label for="Email"><b>Email*</b></label>
+            <input type="Email" id="Email" name="Email"  placeholder="Enter Email" required>   
+
+            <label for="Select Course" ><b>Select Course*</b></label>
+            <select id="Select Course" required>
+                <option value="" disabled selected>Select Course</option>
+                <option label="Full Stack"></option>
+                <option label="DSA">=</option>
+                <option label="JAVA">=</option>
+            </select>                        
+
+            <label for="Phone"><b>Phone*</b></label>
+            <input type="Phone" name="Phone" id="Phone" pattern="[789][0-9]{9}" placeholder="Enter mobile number" size="30" required="required"/>       
+          
+            <label for="Highest Degree"><b>Highest Degree*</b></label>
+            <select id="Select Course" required>
+                <option value="" disabled selected>Select Course</option>
+                <option label="12th"></option>
+                <option label="B.Tech"></option>
+                <option label="M.Tech"></option>
+                <option label="BCA"></option>
+                <option label="MCA"></option>
+                <option label="Others"></option>
+            </select>     
+
+            <label for="Year"><b>Year of completion*</b></label>
+            <select id="Select Course" required>
+                <option value="" disabled selected>Select Course</option>
+                <option label="2022"></option>
+                <option label="2021"></option>
+                <option label="2020"></option>
+                <option label="2019"></option>
+            </select>     
+
+            <label for="Skills"><b>Programming Skills*</b></label>
+            <select id="Select Course" required>
+                <option value="" disabled selected>Select Course</option>
+                <option label="Coding"></option>
+                <option label="Hacking"></option>
+                <option label="Doing Nothing"></option>
+                <option label="Too Smart"></option>
+            </select> 
+
+            <input type="checkbox" value="check" id="C1" required>
+            <label for="C1">By signing up, you agree to the Terms and Conditions of Geekster (QuantumBit technologies Pvt. Ltd)*.</label>
+            
+            <input type="submit" />
+        </form>
+    </div>
+</body>
+</html>
